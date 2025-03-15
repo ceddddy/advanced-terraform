@@ -22,4 +22,4 @@ gcloud iam service-accounts create terraform-cloud \
 
 gcloud iam service-accounts keys create tf_sa_key \
     --iam-account=terraform-cloud@[PROJECT_ID].iam.gserviceaccount.com
-```
+```gcloud config set account [ACCOUNT]
